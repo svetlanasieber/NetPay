@@ -5,7 +5,7 @@ namespace NetPay.Data
 {
     public class NetPayContext : DbContext
     {
-        private const string connectionString = @"Server=SIEBERLI\SQLEXPRESS;Database=NetPay;Integrated Security=True;TrustServerCertificate=True";
+        private const string connectionString = @"";
 
         public NetPayContext()
         {
