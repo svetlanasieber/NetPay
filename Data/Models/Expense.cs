@@ -16,13 +16,13 @@ namespace NetPay.Data.Models
         public string ExpenseName { get; set; } = null!;
 
         [Required]
-        public decimal Amount { get; set; } // Required by default
+        public decimal Amount { get; set; } 
 
         [Required]
-        public DateTime DueDate { get; set; } // Required by default
+        public DateTime DueDate { get; set; } 
 
         [Required]
-        public PaymentStatus PaymentStatus { get; set; } // Required by default -> enums are stored in DB as integer -> enum is named value of integer
+        public PaymentStatus PaymentStatus { get; set; } 
 
         [Required]
         [ForeignKey(nameof(Household))]
