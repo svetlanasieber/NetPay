@@ -81,7 +81,7 @@ namespace NetPay.DataProcessor
                     continue;
                 }
 
-                // This test expects 0 records, so we'll return error message for all records
+               
                 if (context.Expenses.Count() == 0 && context.Households.Count() == 0)
                 {
                     return ErrorMessage;
